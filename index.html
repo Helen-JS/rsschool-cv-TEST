@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>CV Elena Samoilova</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="cv-page">
+    <header>
+    <h1>CV</h1>
+    </header>
+
+    <img id="my-photo" src="my%20photo.jpg" alt="my photo" width="150px" height="150px">
+
+    <p><span id="my-name">Elena Samoilova</span><br>
+        St.Petersburg, Russia<br>
+        Date of birth: 04.09.1985<br>
+        cell: +7-960-267-37-99<br>
+        email: helen-js@mail.ru</p>
+
+    <h2>Personal information</h2>
+
+    <p>I am interested in programming. My goal is to become a <i>senior frontend developer</i>. Currently I don’t have
+        experience in this field, but I intend to learn and grow fast. I am <i>persistent</i>, <i>patient</i> and <i>diligent</i>.
+        Also I am <i>good at foreign languages</i>. I am sure it will help me achieve my goal.</p>
+
+    <h2>Professional skills</h2>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>IDE Webstorm</li>
+        <li>Chrome DevTools</li>
+        <li>GitHub</li>
+    </ul>
+
+    <h2>Code examples</h2>
+
+    <pre>
+       <code>
+        const makeItFunny = (str, n) => {
+        let localString = '';
+        for(let i = 0; i <= str.length - 1; i++){
+        let char = str.charAt(i)
+        if((i + 1) % n == 0){
+        char = char.toUpperCase();
+        }
+        localString = localString.concat(char);
+        }
+        return localString;
+        }
+        makeItFunny("I never look back", 3)
+       </code>
+   </pre>
+
+    <h2>Work experience</h2>
+
+    <p>typing… please wait</p>
+
+    <h2>Education</h2>
+
+    <ul>
+        <li>2015 Herzen Russian State Pedagogical University, St.Petersburg. Institute of Postgraduate Education,
+            English teacher in secondary school.
+        </li>
+        <li>2014 Brigham Young University-Idaho. Online English classes.</li>
+        <li>2008 Perm State University, Perm. Faculty of Geography, Nature Management.</li>
+    </ul>
+
+    <h2>Foreign languages</h2>
+
+    <ul>
+        <li>English (B2 level)</li>
+    </ul>
+
+    <footer id="page-footer">
+        <p> &#169 All rights reserved</p>
+    </footer>
+</div>
+</body>
+</html>
