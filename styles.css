@@ -1,0 +1,46 @@
+body {
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+    background-color: sandybrown;
+}
+
+h1 {
+    color: maroon;
+    text-align: center;
+}
+
+h2 { color: #330000; }
+
+#cv-page {
+    margin: 100px;
+    padding: 50px;
+    background-color: bisque;
+}
+
+#my-photo {
+    display: flex;
+    float: left;
+    margin-right: 50px;
+}
+
+#my-name {
+    font-size: 30px;
+    font-weight: bold;
+    color: maroon;
+}
+
+code {
+    display: block;
+    font-size: 18px;
+    background-color: #f1f1f1;
+}
+
+#page-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    height: 40px;
+    font-size: 18px;
+    background-color: coral;
+}
